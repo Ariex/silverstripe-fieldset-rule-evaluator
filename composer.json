@@ -1,0 +1,21 @@
+{
+	"name": "Ariex/silverstripe-fieldset-rule-evaluator",
+	"type": "silverstripe-module",
+	"description": "A simple rule evaluator, to evaluate a rule in string based on values from a given field set.",
+	"keywords": ["silverstripe", "rule", "forms"],
+	"license": "MIT License",
+	"authors": [
+		{
+			"name": "Ariex",
+			"email": "ariexcorn@gmail.com"
+		}
+	],
+	"require": 
+	{
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.0"
+	},
+	"support": {
+		"issues": "https://github.com/Ariex/silverstripe-fieldset-rule-evaluator/issues"
+	}
+}
