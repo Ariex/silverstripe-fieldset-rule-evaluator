@@ -10,7 +10,7 @@ class ArrayRuleNode extends RuleNode {
 	}
 
 	public function Contains($right) {
-		return $this->Equals($right);
+		return in_array($right, $this->RawValue);
 	}
 
 	/* additional functions can be accessed after a dot */
